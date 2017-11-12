@@ -4,3 +4,6 @@ fi
 
 source ~/.zsh/history.zsh
 source ~/.zsh/rbenv.zsh
+source ~/.zsh/pyenv.zsh
+source ~/.zsh/nodenv.zsh
+source ~/.zsh/sdkman.zsh
