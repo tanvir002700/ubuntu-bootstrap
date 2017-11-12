@@ -3,3 +3,4 @@ if [ -d ~/bin ]; then
 fi
 
 source ~/.zsh/history.zsh
+source ~/.zsh/rbenv.zsh
