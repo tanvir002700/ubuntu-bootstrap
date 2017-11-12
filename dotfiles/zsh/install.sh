@@ -1,4 +1,4 @@
-CURRENT_DIR="$(dirname $0)"
-mkdir ~/.zsh
+mkdir ~/.zsh &> /dev/null
+CURRENT_DIR="$(pwd)"
 cp $CURRENT_DIR/*.zsh ~/.zsh
 cp $CURRENT_DIR/zshrc ~/.zshrc
