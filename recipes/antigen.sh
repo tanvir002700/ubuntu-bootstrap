@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 if [ -d ~/.antigen ]; then
 	echo "=======> antigen already installed <======="
 else

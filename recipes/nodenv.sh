@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 if [ -d ~/.nodenv ]; then
     echo "=======> nodenv already installed <======="
 else

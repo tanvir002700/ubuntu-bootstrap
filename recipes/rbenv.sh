@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 if [ -d ~/.rbenv ]; then
 	echo "=======> rbenv already installed <======="
 else

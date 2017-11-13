@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 if which zsh > /dev/null; then

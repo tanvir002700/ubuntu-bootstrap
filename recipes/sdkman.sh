@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 if [ -d ~/.sdkman ]; then
 	echo "=======> SdkMan already installed <======="
 else
