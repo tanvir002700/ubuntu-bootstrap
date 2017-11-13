@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 DOTFILES="$(pwd)/dotfiles"
 
 echo $DOTFILES

@@ -3,6 +3,7 @@ if [ -d ~/bin ]; then
 fi
 
 source ~/.zsh/history.zsh
+source ~/.zsh/antigen.zsh
 source ~/.zsh/rbenv.zsh
 source ~/.zsh/pyenv.zsh
 source ~/.zsh/nodenv.zsh
