@@ -11,4 +11,4 @@ for file in $ALL_RECIPES; do
 	source $file
 done
 
-source ./dotfiles_install
+source ./dotfiles_install.sh
