@@ -6,9 +6,7 @@ else
     echo "------->> installing nodenv <<------"
 
     git clone https://github.com/nodenv/nodenv.git ~/.nodenv
-    pushd ~/.nodenv
-    pushd src/configure && make -C src
-    popd
+    pushd ~/.nodenv && src/configure && make -C src
     popd
     mkdir -p ~/.nodenv/plugins
     pushd ~/.nodenv/plugins
