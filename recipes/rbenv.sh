@@ -6,9 +6,7 @@ else
 	echo "------->> installing rbenv <<------"
 
   	git clone git://github.com/rbenv/rbenv.git ~/.rbenv
-	pushd ~/.rbenv
-  	pushd src/configure && make -C src
-  	popd
+  	pushd ~/.rbenv && src/configure && make -C src
   	popd
   	mkdir -p ~/.rbenv/plugins
   	pushd ~/.rbenv/plugins
