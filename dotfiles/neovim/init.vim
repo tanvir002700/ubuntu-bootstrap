@@ -8,6 +8,7 @@ let g:vim_bootstrap_editor = "nvim"				" nvim or vim
 let mapleader=","
 let g:mapleader=","
 
+call system('true')
 
 source ~/.config/nvim/plugins.vim
 
@@ -54,7 +55,7 @@ map <F5> :NERDTreeFind<CR>
 
 source ~/.config/nvim/airline.vim
 source ~/.config/nvim/syntastic.vim
-
+source ~/.config/nvim/jedi.vim
 
 set textwidth=120
 set showbreak=↪
