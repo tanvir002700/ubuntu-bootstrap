@@ -53,6 +53,7 @@ map <F6> :NERDTreeToggle<CR>
 map <F5> :NERDTreeFind<CR>
 
 source ~/.config/nvim/airline.vim
+source ~/.config/nvim/syntastic.vim
 
 
 set textwidth=120

@@ -6,6 +6,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'bling/vim-bufferline'             " bufferline
 	Plug 'tpope/vim-endwise'
 	Plug 'ervandew/supertab'
+	Plug 'vim-syntastic/syntastic'
 
 	Plug 'scrooloose/nerdtree'
 	Plug 'Xuyuanp/nerdtree-git-plugin'
