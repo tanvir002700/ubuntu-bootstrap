@@ -7,4 +7,5 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
 	Plug 'airblade/vim-gitgutter'
+	Plug 'ntpeters/vim-better-whitespace'
 call plug#end()
