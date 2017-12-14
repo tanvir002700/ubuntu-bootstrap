@@ -24,4 +24,7 @@ call plug#begin('~/.config/nvim/plugged')
 	" c
 	Plug 'vim-scripts/c.vim', {'for': ['c', 'cpp']}
 	Plug 'ludwig/split-manpage.vim'
+
+	" rails
+	Plug'tpope/vim-rails'
 call plug#end()

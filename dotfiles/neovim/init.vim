@@ -56,6 +56,7 @@ map <F5> :NERDTreeFind<CR>
 source ~/.config/nvim/airline.vim
 source ~/.config/nvim/syntastic.vim
 source ~/.config/nvim/jedi.vim
+source ~/.config/nvim/ruby.vim
 
 set textwidth=120
 set showbreak=↪
