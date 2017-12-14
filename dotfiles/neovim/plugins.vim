@@ -6,4 +6,5 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'Xuyuanp/nerdtree-git-plugin'
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
+	Plug 'airblade/vim-gitgutter'
 call plug#end()
