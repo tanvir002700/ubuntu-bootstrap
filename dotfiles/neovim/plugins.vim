@@ -26,5 +26,9 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'ludwig/split-manpage.vim'
 
 	" rails
-	Plug'tpope/vim-rails'
+	Plug 'tpope/vim-rails'
+	Plug 'tpope/vim-rake'
+	Plug 'tpope/vim-projectionist'
+	Plug 'thoughtbot/vim-rspec'
+	Plug 'ecomba/vim-ruby-refactoring'
 call plug#end()
