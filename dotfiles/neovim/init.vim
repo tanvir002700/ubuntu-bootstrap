@@ -14,6 +14,8 @@ source ~/.config/nvim/plugins.vim
 syntax enable
 set background=dark
 colorscheme solarized8
+hi Normal guibg=NONE ctermbg=NONE
+
 
 set showcmd             " Show (partial) command in status line.
 set showmatch           " Show matching brackets.
@@ -47,7 +49,6 @@ augroup configgroup
 augroup END
 
 "NERDTree Config
-autocmd vimenter * NERDTree
 map <F6> :NERDTreeToggle<CR>
 map <F5> :NERDTreeFind<CR>
 
