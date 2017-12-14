@@ -51,6 +51,8 @@ autocmd vimenter * NERDTree
 map <F6> :NERDTreeToggle<CR>
 map <F5> :NERDTreeFind<CR>
 
+source ~/.config/nvim/airline.vim
+
 
 set textwidth=120
 set showbreak=↪

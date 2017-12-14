@@ -4,4 +4,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'lifepillar/vim-solarized8'
 	Plug 'scrooloose/nerdtree'
 	Plug 'Xuyuanp/nerdtree-git-plugin'
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
 call plug#end()
