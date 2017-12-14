@@ -48,6 +48,9 @@ augroup END
 
 "NERDTree Config
 autocmd vimenter * NERDTree
+map <F6> :NERDTreeToggle<CR>
+map <F5> :NERDTreeFind<CR>
+
 
 set textwidth=120
 set showbreak=↪
