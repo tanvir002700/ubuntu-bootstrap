@@ -18,4 +18,10 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'airblade/vim-gitgutter'			" check git diff
 	Plug 'ntpeters/vim-better-whitespace'   " check trailling white space error
 	Plug 'Raimondi/delimitMate'             " automatic closing of quotes, parenthesis, brackets, etc.
+	Plug 'honza/vim-snippets'
+
+
+	" c
+	Plug 'vim-scripts/c.vim', {'for': ['c', 'cpp']}
+	Plug 'ludwig/split-manpage.vim'
 call plug#end()
