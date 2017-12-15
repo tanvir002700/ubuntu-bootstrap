@@ -20,3 +20,5 @@
     - Enter vinegar type d for new directory
     - Enter vinegar type % for new file
     - <Leader>f for searching tag
+    - <C-]> over method take to method definitaion
+    - <C-^> bring back to previous location
