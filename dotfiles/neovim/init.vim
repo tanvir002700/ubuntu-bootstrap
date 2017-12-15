@@ -79,6 +79,7 @@ let NERDTreeHijackNetrw = 0
 
 nmap <c-R> :CtrlPBufTag<cr>
 nmap <c-e> :CtrlPMRUFiles<cr>
+nmap <Leader>f :tag<space>
 
 source ~/.config/nvim/airline.vim
 source ~/.config/nvim/syntastic.vim
