@@ -77,6 +77,9 @@ map <F6> :NERDTreeToggle<CR>
 map <F5> :NERDTreeFind<CR>
 let NERDTreeHijackNetrw = 0
 
+set grepprg=ag
+let g:grep_cmd_opts = '--line-numbers --noheading'
+
 nmap <c-R> :CtrlPBufTag<cr>
 nmap <c-e> :CtrlPMRUFiles<cr>
 nmap <Leader>f :tag<space>

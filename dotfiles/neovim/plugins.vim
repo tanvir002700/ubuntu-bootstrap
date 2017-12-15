@@ -10,6 +10,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'vim-syntastic/syntastic'
 	Plug 'sheerun/vim-polyglot'
 	Plug 'rking/ag.vim'
+	Plug 'skwp/greplace.vim'
+	Plug 'ervandew/supertab'
 
 	Plug 'scrooloose/nerdtree'
 	Plug 'Xuyuanp/nerdtree-git-plugin'

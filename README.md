@@ -23,3 +23,6 @@
     - <C-]> over method take to method definitaion
     - <C-^> bring back to previous location
     - grep -R 'Jon Doe' ./ "Search Jon Doe whole project"
+    - Ag 'string' to search string
+    - Gsearch for search and replace
+    - cs change surrounding
