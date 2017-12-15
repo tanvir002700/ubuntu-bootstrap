@@ -22,3 +22,9 @@ else
   which nvim > /dev/null && nvim +PlugUpgrade +PlugUpdate +PlugClean +qa
 fi 
 
+if which ctags > /dev/null; then
+  echo "=======> ctags already installed. <=======" 
+else
+   echo "------->> Installing ctags <<-------"
+   sudo apt-get install -y --force-yes exuberant-ctags
+fi
