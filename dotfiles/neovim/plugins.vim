@@ -3,7 +3,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'dracula/vim'
 	Plug 'lifepillar/vim-solarized8'
-	Plug 'davidhalter/jedi-vim'				" auto complete
 	Plug 'bling/vim-bufferline'             " bufferline
 	Plug 'tpope/vim-endwise'
 	Plug 'ervandew/supertab'
@@ -35,4 +34,21 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-projectionist'
 	Plug 'thoughtbot/vim-rspec'
 	Plug 'ecomba/vim-ruby-refactoring'
+
+	" html
+	"" HTML Bundle
+	Plug 'hail2u/vim-css3-syntax'
+	Plug 'gorodinskiy/vim-coloresque'
+	Plug 'tpope/vim-haml'
+	Plug 'mattn/emmet-vim'
+
+	" javascript
+	"" Javascript Bundle
+	Plug 'jelera/vim-javascript-syntax'
+
+
+	" python
+	"" Python Bundle
+	Plug 'davidhalter/jedi-vim'
+	Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
 call plug#end()
