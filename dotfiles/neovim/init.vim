@@ -38,6 +38,10 @@ set softtabstop=4       " edit as if the tabs are 4 characters wide
 set shiftwidth=4        " number of spaces to use for indent and unindent
 set shiftround          " round indent to a multiple of 'shiftwidth'
 set completeopt+=longest
+set linespace=15
+set textwidth=120
+set showbreak=↪
+set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
 
 augroup configgroup
 	autocmd!
@@ -49,6 +53,9 @@ augroup configgroup
 	autocmd FileType java setlocal ts=4 sts=4 sw=4 expandtab
 augroup END
 
+
+"------------ Mappnigs ------------"
+
 "NERDTree Config
 map <F6> :NERDTreeToggle<CR>
 map <F5> :NERDTreeFind<CR>
@@ -58,9 +65,7 @@ source ~/.config/nvim/syntastic.vim
 source ~/.config/nvim/jedi.vim
 source ~/.config/nvim/ruby.vim
 
-set textwidth=120
-set showbreak=↪
-set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
+
 
 nmap <silent> <leader>e :bnext<cr>          " switch to nex buffer
 nmap <silent> <leader>w :bprevious<cr>      " switch to previous bufferjkj
