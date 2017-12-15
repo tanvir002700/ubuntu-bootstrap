@@ -10,3 +10,6 @@
 	- yy copy 
 	- p paste
 	- zz Bring curson to center of monitor
+	- :vsp virtical split
+	- :sp horizontal split
+	- <C-J>, <C-K>, <C-H>, <C-L> switching split window

@@ -38,8 +38,6 @@ set softtabstop=4       " edit as if the tabs are 4 characters wide
 set shiftwidth=4        " number of spaces to use for indent and unindent
 set shiftround          " round indent to a multiple of 'shiftwidth'
 set completeopt+=longest
-set linespace=15
-set textwidth=120
 set showbreak=↪
 set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
 
@@ -52,6 +50,21 @@ augroup configgroup
 	autocmd FileType json setlocal ts=2 sts=2 sw=2 expandtab
 	autocmd FileType java setlocal ts=4 sts=4 sw=4 expandtab
 augroup END
+
+"------------ Visual Settings -----"
+set guioptions-=l
+set guioptions-=L
+set guioptions-=r
+set guioptions-=R
+set linespace=15
+set textwidth=120
+
+
+"------------ Split Management ----"
+nmap <C-J> <C-W><C-J>
+nmap <C-K> <C-W><C-K>
+nmap <C-H> <C-W><C-H>
+nmap <C-L> <C-W><C-L>
 
 
 "------------ Mappnigs ------------"
