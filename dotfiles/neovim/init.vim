@@ -69,6 +69,7 @@ source ~/.config/nvim/ruby.vim
 
 nmap <silent> <leader>e :bnext<cr>          " switch to nex buffer
 nmap <silent> <leader>w :bprevious<cr>      " switch to previous bufferjkj
+nmap <Leader><Space> :nohlsearch 			" off highlight search
 
 set mouse=a mousemodel=popup
 
