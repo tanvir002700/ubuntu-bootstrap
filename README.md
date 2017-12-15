@@ -22,3 +22,4 @@
     - <Leader>f for searching tag
     - <C-]> over method take to method definitaion
     - <C-^> bring back to previous location
+    - grep -R 'Jon Doe' ./ "Search Jon Doe whole project"

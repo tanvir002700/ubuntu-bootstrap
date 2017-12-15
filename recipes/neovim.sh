@@ -28,3 +28,10 @@ else
    echo "------->> Installing ctags <<-------"
    sudo apt-get install -y --force-yes exuberant-ctags
 fi
+
+if which ag > /dev/null; then
+  echo "=======> silversearcher-ag already installed. <======="
+else
+  echo "------->> Installing silversearcher-ag <<-------"
+  sudo apt-get install -y --force-yes silversearcher-ag
+fi
