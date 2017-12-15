@@ -58,6 +58,7 @@ set guioptions-=r
 set guioptions-=R
 set linespace=15
 set textwidth=120
+hi LineNr ctermfg=white ctermbg=none
 
 
 "------------ Split Management ----"
