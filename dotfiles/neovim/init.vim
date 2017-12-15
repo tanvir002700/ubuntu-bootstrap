@@ -29,6 +29,7 @@ set ignorecase          " Make searching case insensitive
 set smartcase           " ... unless the query has capital letters.
 set incsearch           " Incremental search.
 set cursorline
+set complete=.,w,b,u
 
 set expandtab           " insert spaces for <Tab>
 set smartindent

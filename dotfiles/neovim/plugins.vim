@@ -13,11 +13,13 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'ervandew/supertab'
 
 	Plug 'scrooloose/nerdtree'
+    Plug 'jistr/vim-nerdtree-tabs'
 	Plug 'Xuyuanp/nerdtree-git-plugin'
-	
+
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
-	
+
+
 	Plug 'airblade/vim-gitgutter'			" check git diff
 	Plug 'ntpeters/vim-better-whitespace'   " check trailling white space error
 	Plug 'Raimondi/delimitMate'             " automatic closing of quotes, parenthesis, brackets, etc.
