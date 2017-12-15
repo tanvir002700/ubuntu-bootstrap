@@ -76,6 +76,9 @@ nmap <C-L> <C-W><C-L>
 map <F6> :NERDTreeToggle<CR>
 map <F5> :NERDTreeFind<CR>
 
+nmap <c-R> :CtrlPBufTag<cr>
+nmap <c-e> :CtrlPMRUFiles<cr>
+
 source ~/.config/nvim/airline.vim
 source ~/.config/nvim/syntastic.vim
 source ~/.config/nvim/jedi.vim

@@ -1,5 +1,6 @@
 call plug#begin('~/.config/nvim/plugged')
 	Plug 'tpope/vim-vinegar'
+	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'dracula/vim'
 	Plug 'lifepillar/vim-solarized8'
 	Plug 'davidhalter/jedi-vim'				" auto complete

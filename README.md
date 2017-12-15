@@ -15,3 +15,5 @@
 	- <C-J>, <C-K>, <C-H>, <C-L> switching split window
 	- :bp, bn change buffer
 	- :b<number> jump buffer
+	- :e . Browse current directory
+    - <C-p> for searching file in project dir
