@@ -17,3 +17,5 @@
 	- :b<number> jump buffer
 	- :e . Browse current directory
     - <C-p> for searching file in project dir
+    - Enter vinegar type d for new directory
+    - Enter vinegar type % for new file

@@ -75,6 +75,7 @@ nmap <C-L> <C-W><C-L>
 "NERDTree Config
 map <F6> :NERDTreeToggle<CR>
 map <F5> :NERDTreeFind<CR>
+let NERDTreeHijackNetrw = 0
 
 nmap <c-R> :CtrlPBufTag<cr>
 nmap <c-e> :CtrlPMRUFiles<cr>
