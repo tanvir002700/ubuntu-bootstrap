@@ -61,6 +61,9 @@ set textwidth=120
 
 
 "------------ Split Management ----"
+set splitbelow
+set splitright
+
 nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
 nmap <C-H> <C-W><C-H>

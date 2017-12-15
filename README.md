@@ -13,3 +13,5 @@
 	- :vsp virtical split
 	- :sp horizontal split
 	- <C-J>, <C-K>, <C-H>, <C-L> switching split window
+	- :bp, bn change buffer
+	- :b<number> jump buffer
