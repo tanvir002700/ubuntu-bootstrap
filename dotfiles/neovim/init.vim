@@ -24,10 +24,10 @@ set showmode            " Show current mode.
 set ruler               " Show the line and column numbers of the cursor.
 set number
 set autoread            " Detect when a file changed
-set hlsearch            " Highlight search results.
 set ignorecase          " Make searching case insensitive
 set smartcase           " ... unless the query has capital letters.
 set incsearch           " Incremental search.
+set hlsearch            " Highlight search results.
 set cursorline
 set complete=.,w,b,u
 
@@ -78,6 +78,7 @@ nmap <C-L> <C-W><C-L>
 map <F6> :NERDTreeToggle<CR>
 map <F5> :NERDTreeFind<CR>
 let NERDTreeHijackNetrw = 0
+let g:NERDTreeWinSize=20
 
 set grepprg=ag
 let g:grep_cmd_opts = '--line-numbers --noheading'
