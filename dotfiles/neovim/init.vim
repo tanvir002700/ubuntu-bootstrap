@@ -30,6 +30,7 @@ set incsearch           " Incremental search.
 set hlsearch            " Highlight search results.
 set cursorline
 set complete=.,w,b,u
+set autowriteall
 
 set expandtab           " insert spaces for <Tab>
 set smartindent
