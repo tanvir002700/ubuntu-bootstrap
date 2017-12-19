@@ -30,7 +30,9 @@ set incsearch           " Incremental search.
 set hlsearch            " Highlight search results.
 set cursorline
 set complete=.,w,b,u
-set autowriteall
+"set autowriteall
+set clipboard=unnamedplus
+set hidden
 
 set expandtab           " insert spaces for <Tab>
 set smartindent
@@ -97,8 +99,10 @@ source ~/.config/nvim/ruby.vim
 
 nmap <silent> <leader>e :bnext<cr>          " switch to nex buffer
 nmap <silent> <leader>w :bprevious<cr>      " switch to previous bufferjkj
-nmap <Leader><Space> :nohlsearch 			" off highlight search
+nmap <Leader><Space> :nohlsearch<cr> 			" off highlight search
 imap jk <esc>
 
 set mouse=a mousemodel=popup
+
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|dataset'
 
