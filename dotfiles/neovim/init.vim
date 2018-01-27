@@ -30,9 +30,9 @@ set incsearch           " Incremental search.
 set hlsearch            " Highlight search results.
 set cursorline
 set complete=.,w,b,u
-"set autowriteall
+set autowriteall
 set clipboard=unnamedplus
-set hidden
+"set hidden
 
 set expandtab           " insert spaces for <Tab>
 set smartindent
@@ -40,6 +40,7 @@ set smarttab            " tab respects 'tabstop', 'shiftwidth', and 'softtabstop
 set tabstop=4           " the visible width of tabs
 set softtabstop=4       " edit as if the tabs are 4 characters wide
 set shiftwidth=4        " number of spaces to use for indent and unindent
+set colorcolumn=80
 set shiftround          " round indent to a multiple of 'shiftwidth'
 set completeopt+=longest
 set showbreak=↪
@@ -86,7 +87,7 @@ let g:NERDTreeWinSize=20
 set grepprg=ag
 let g:grep_cmd_opts = '--line-numbers --noheading'
 
-nmap <c-R> :CtrlPBufTag<cr>
+"nmap <c-e> :CtrlPBufTag<cr>
 nmap <c-e> :CtrlPMRUFiles<cr>
 nmap <Leader>f :tag<space>
 
