@@ -1,5 +1,11 @@
 # ubuntu-bootstrap
 
+## Install
+```
+cd ubuntu-bootstrap
+./install
+```
+
 ## Vim Tricks
 
 ### Shortcuts
