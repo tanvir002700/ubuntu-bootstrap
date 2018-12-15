@@ -16,9 +16,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'jistr/vim-nerdtree-tabs'
 	Plug 'Xuyuanp/nerdtree-git-plugin'
 
-	Plug 'vim-airline/vim-airline'
-	Plug 'vim-airline/vim-airline-themes'
-
+    Plug 'bagrat/vim-workspace'
 
 	Plug 'airblade/vim-gitgutter'			" check git diff
 	Plug 'ntpeters/vim-better-whitespace'   " check trailling white space error

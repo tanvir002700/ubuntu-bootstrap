@@ -91,9 +91,7 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 nmap <c-e> :CtrlPMRUFiles<cr>
 nmap <Leader>f :tag<space>
 
-source ~/.config/nvim/airline.vim
 source ~/.config/nvim/syntastic.vim
-source ~/.config/nvim/jedi.vim
 source ~/.config/nvim/ruby.vim
 
 
