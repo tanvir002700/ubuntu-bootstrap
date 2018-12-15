@@ -1,5 +1,3 @@
-
-
 let vimplug_exists=expand('~/.config/nvim/autoload/plug.vim')
 
 let g:vim_bootstrap_langs = "c,html,javascript,python,ruby"
@@ -95,9 +93,9 @@ nmap <Leader>f :tag<space>
 source ~/.config/nvim/workspace.vim
 source ~/.config/nvim/syntastic.vim
 source ~/.config/nvim/jedi.vim
+source ~/.config/nvim/deoplete.vim
 source ~/.config/nvim/ruby.vim
 source ~/.config/nvim/html.vim
-
 
 
 nmap <silent> <leader>e :WSNext<cr>          " switch to nex buffer
@@ -112,3 +110,4 @@ let g:python_host_prog = '/home/tanvir/.pyenv/shims/python'
 
 set notagrelative
 set tags=.git/tags
+set encoding=UTF-8

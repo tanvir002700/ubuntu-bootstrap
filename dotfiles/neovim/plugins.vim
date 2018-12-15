@@ -44,12 +44,19 @@ call plug#begin('~/.config/nvim/plugged')
 
 	" javascript
 	"" Javascript Bundle
-	Plug 'jelera/vim-javascript-syntax'
+    Plug 'pangloss/vim-javascript'
+    Plug 'mxw/vim-jsx'
 
 
 	" python
 	"" Python Bundle
     Plug 'davidhalter/jedi-vim'
 
-
+    if has('nvim')
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    else
+    Plug 'Shougo/deoplete.nvim'
+    Plug 'roxma/nvim-yarp'
+    Plug 'roxma/vim-hug-neovim-rpc'
+    endif
 call plug#end()
