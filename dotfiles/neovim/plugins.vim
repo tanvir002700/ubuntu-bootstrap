@@ -16,13 +16,12 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'jistr/vim-nerdtree-tabs'
 	Plug 'Xuyuanp/nerdtree-git-plugin'
 
-    Plug 'bagrat/vim-workspace'
-
 	Plug 'airblade/vim-gitgutter'			" check git diff
 	Plug 'ntpeters/vim-better-whitespace'   " check trailling white space error
 	Plug 'Raimondi/delimitMate'             " automatic closing of quotes, parenthesis, brackets, etc.
 	Plug 'honza/vim-snippets'
 
+    Plug 'bagrat/vim-workspace'
 
 	" c
 	Plug 'vim-scripts/c.vim', {'for': ['c', 'cpp']}
@@ -41,6 +40,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'gorodinskiy/vim-coloresque'
 	Plug 'tpope/vim-haml'
 	Plug 'mattn/emmet-vim'
+    Plug 'sukima/xmledit'
 
 	" javascript
 	"" Javascript Bundle
@@ -49,6 +49,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 	" python
 	"" Python Bundle
-	Plug 'davidhalter/jedi-vim'
-	Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
+    Plug 'Valloric/YouCompleteMe'
+
+
 call plug#end()
