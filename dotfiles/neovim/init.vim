@@ -51,7 +51,8 @@ augroup configgroup
 	autocmd FileType xml setlocal ts=2 sts=2 sw=2 expandtab
 	autocmd FileType gradle.build setlocal ts=2 sts=2 sw=2 expandtab
 	autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab smartindent smarttab
-	autocmd FileType python setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType javascript setlocal ts=2 sts=2 sw=2 expandtab smartindent smarttab
+	autocmd FileType python setlocal ts=4 sts=4 sw=4 expandtab
 	autocmd FileType json setlocal ts=2 sts=2 sw=2 expandtab
 	autocmd FileType java setlocal ts=4 sts=4 sw=4 expandtab
 augroup END
@@ -62,7 +63,7 @@ set guioptions-=L
 set guioptions-=r
 set guioptions-=R
 set linespace=15
-set textwidth=120
+set textwidth=80
 hi LineNr ctermfg=white ctermbg=none
 
 
@@ -92,6 +93,7 @@ nmap <c-e> :CtrlPMRUFiles<cr>
 nmap <Leader>f :tag<space>
 
 source ~/.config/nvim/syntastic.vim
+source ~/.config/nvim/ycm.vim
 source ~/.config/nvim/ruby.vim
 
 
@@ -104,4 +106,7 @@ imap jk <esc>
 set mouse=a mousemodel=popup
 
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|dataset'
+let g:python_host_prog = '/home/tanvir/.pyenv/shims/python'
 
+set notagrelative
+set tags=.git/tags
