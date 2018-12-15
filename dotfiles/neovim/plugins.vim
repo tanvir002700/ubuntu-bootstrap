@@ -49,7 +49,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 	" python
 	"" Python Bundle
-    Plug 'Valloric/YouCompleteMe'
+    Plug 'davidhalter/jedi-vim'
 
 
 call plug#end()

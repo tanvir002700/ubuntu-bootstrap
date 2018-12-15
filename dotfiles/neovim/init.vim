@@ -94,7 +94,7 @@ nmap <Leader>f :tag<space>
 
 source ~/.config/nvim/workspace.vim
 source ~/.config/nvim/syntastic.vim
-source ~/.config/nvim/ycm.vim
+source ~/.config/nvim/jedi.vim
 source ~/.config/nvim/ruby.vim
 source ~/.config/nvim/html.vim
 
