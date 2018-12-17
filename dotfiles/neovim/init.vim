@@ -11,8 +11,8 @@ call system('true')
 source ~/.config/nvim/plugins.vim
 
 syntax enable
-set background=dark
 colorscheme solarized8
+set background=dark
 hi Normal guibg=NONE ctermbg=NONE
 
 
@@ -90,8 +90,9 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 nmap <c-e> :CtrlPMRUFiles<cr>
 nmap <Leader>f :tag<space>
 
-source ~/.config/nvim/buftabline.vim
-source ~/.config/nvim/syntastic.vim
+source ~/.config/nvim/neomake.vim
+source ~/.config/nvim/airline.vim
+source ~/.config/nvim/devicons.vim
 source ~/.config/nvim/jedi.vim
 source ~/.config/nvim/deoplete.vim
 source ~/.config/nvim/ruby.vim
@@ -100,6 +101,8 @@ source ~/.config/nvim/html.vim
 
 nmap <Leader><Space> :nohlsearch<cr> 			" off highlight search
 imap jk <esc>
+nmap <silent> <leader>e :bnext<cr>          " switch to nex buffer
+nmap <silent> <leader>w :bprev<cr>      " switch to previous bufferjkj
 
 set mouse=a mousemodel=popup
 
@@ -109,3 +112,4 @@ let g:python_host_prog = '/home/tanvir/.pyenv/shims/python'
 set notagrelative
 set tags=.git/tags
 set encoding=UTF-8
+set guifont=DroidSansMono\ Nerd\ Font\ 11

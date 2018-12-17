@@ -1,4 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'neomake/neomake'
+
 	Plug 'tpope/vim-vinegar'
 	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'dracula/vim'
@@ -6,7 +9,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'bling/vim-bufferline'             " bufferline
 	Plug 'tpope/vim-endwise'
 	Plug 'ervandew/supertab'
-	Plug 'vim-syntastic/syntastic'
 	Plug 'sheerun/vim-polyglot'
 	Plug 'rking/ag.vim'
 	Plug 'skwp/greplace.vim'
@@ -15,14 +17,15 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'scrooloose/nerdtree'
     Plug 'jistr/vim-nerdtree-tabs'
 	Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 	Plug 'airblade/vim-gitgutter'			" check git diff
 	Plug 'ntpeters/vim-better-whitespace'   " check trailling white space error
 	Plug 'Raimondi/delimitMate'             " automatic closing of quotes, parenthesis, brackets, etc.
 	Plug 'honza/vim-snippets'
 
-    "Plug 'bagrat/vim-workspace'
-    Plug 'ap/vim-buftabline'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 
 	" c
 	Plug 'vim-scripts/c.vim', {'for': ['c', 'cpp']}
@@ -45,8 +48,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 	" javascript
 	"" Javascript Bundle
-    Plug 'pangloss/vim-javascript'
-    Plug 'mxw/vim-jsx'
+    Plug 'jelera/vim-javascript-syntax'
 
 
 	" python
