@@ -90,7 +90,7 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 nmap <c-e> :CtrlPMRUFiles<cr>
 nmap <Leader>f :tag<space>
 
-source ~/.config/nvim/workspace.vim
+source ~/.config/nvim/buftabline.vim
 source ~/.config/nvim/syntastic.vim
 source ~/.config/nvim/jedi.vim
 source ~/.config/nvim/deoplete.vim
@@ -98,8 +98,6 @@ source ~/.config/nvim/ruby.vim
 source ~/.config/nvim/html.vim
 
 
-nmap <silent> <leader>e :WSNext<cr>          " switch to nex buffer
-nmap <silent> <leader>w :WSPrev<cr>      " switch to previous bufferjkj
 nmap <Leader><Space> :nohlsearch<cr> 			" off highlight search
 imap jk <esc>
 

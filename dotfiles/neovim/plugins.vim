@@ -21,7 +21,8 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'Raimondi/delimitMate'             " automatic closing of quotes, parenthesis, brackets, etc.
 	Plug 'honza/vim-snippets'
 
-    Plug 'bagrat/vim-workspace'
+    "Plug 'bagrat/vim-workspace'
+    Plug 'ap/vim-buftabline'
 
 	" c
 	Plug 'vim-scripts/c.vim', {'for': ['c', 'cpp']}
