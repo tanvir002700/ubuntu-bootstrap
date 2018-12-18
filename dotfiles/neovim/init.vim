@@ -86,15 +86,15 @@ let g:NERDTreeWinSize=20
 set grepprg=ag
 let g:grep_cmd_opts = '--line-numbers --noheading'
 
-"nmap <c-e> :CtrlPBufTag<cr>
-nmap <c-e> :CtrlPMRUFiles<cr>
+nmap <c-r> :CtrlPMRUFiles<cr>
+nmap <c-t> :CtrlPBufTag<cr>
 nmap <Leader>f :tag<space>
 
 source ~/.config/nvim/neomake.vim
 source ~/.config/nvim/airline.vim
 source ~/.config/nvim/devicons.vim
-source ~/.config/nvim/jedi.vim
 source ~/.config/nvim/deoplete.vim
+source ~/.config/nvim/jedi.vim
 source ~/.config/nvim/ruby.vim
 source ~/.config/nvim/html.vim
 
@@ -110,6 +110,19 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|dataset'
 let g:python_host_prog = '/home/tanvir/.pyenv/shims/python'
 
 set notagrelative
-set tags=.git/tags
 set encoding=UTF-8
 set guifont=DroidSansMono\ Nerd\ Font\ 11
+
+
+" Notes and Tips
+" Ctags
+" ctags -R --exclude='*.js' .
+" tag name
+" <c-]> goto definition
+" <c-6] goto previous view
+"
+" For Search and replace
+" Gsearch for search and Greplace for replace
+"
+" select whole file => v G
+" Marks for mark a point for jump to this point. for mark: <m,key>
