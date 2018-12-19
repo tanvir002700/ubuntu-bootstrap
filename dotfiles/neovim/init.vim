@@ -73,7 +73,6 @@ set mouse=a mousemodel=popup
 set encoding=UTF-8
 
 command Bd bp|vsp|bn|bd
-cabbrev bd Bd
 
 
 
