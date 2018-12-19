@@ -31,6 +31,7 @@ set complete=.,w,b,u
 set autowriteall
 set clipboard=unnamedplus
 "set hidden
+set undofile
 
 set expandtab           " insert spaces for <Tab>
 set smartindent
@@ -81,12 +82,12 @@ nmap <C-L> <C-W><C-L>
 map <F6> :NERDTreeToggle<CR>
 map <F5> :NERDTreeFind<CR>
 let NERDTreeHijackNetrw = 0
-let g:NERDTreeWinSize=20
+let g:NERDTreeWinSize=25
 
 set grepprg=ag
 let g:grep_cmd_opts = '--line-numbers --noheading'
 
-nmap <c-r> :CtrlPMRUFiles<cr>
+nmap <c-e> :CtrlPMRUFiles<cr>
 nmap <c-t> :CtrlPBufTag<cr>
 nmap <Leader>f :tag<space>
 
