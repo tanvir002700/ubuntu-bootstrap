@@ -72,6 +72,9 @@ set mouse=a mousemodel=popup
 
 set encoding=UTF-8
 
+command Bd bp|vsp|bn|bd
+
+
 
 " Notes and Tips
 " Ctags
