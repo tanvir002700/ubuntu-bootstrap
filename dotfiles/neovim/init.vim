@@ -28,9 +28,9 @@ set incsearch           " Incremental search.
 set hlsearch            " Highlight search results.
 set cursorline
 set complete=.,w,b,u
-set autowriteall
-set clipboard=unnamedplus
-"set hidden
+"set autowriteall
+set clipboard+=unnamedplus
+set hidden
 set undofile
 
 set expandtab           " insert spaces for <Tab>
@@ -45,55 +45,20 @@ set completeopt+=longest
 set showbreak=↪
 set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
 
-augroup configgroup
-	autocmd!
-	autocmd FileType xml setlocal ts=2 sts=2 sw=2 expandtab
-	autocmd FileType gradle.build setlocal ts=2 sts=2 sw=2 expandtab
-	autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab smartindent smarttab
-	autocmd FileType javascript setlocal ts=2 sts=2 sw=2 expandtab smartindent smarttab
-	autocmd FileType python setlocal ts=4 sts=4 sw=4 expandtab
-	autocmd FileType json setlocal ts=2 sts=2 sw=2 expandtab
-	autocmd FileType java setlocal ts=4 sts=4 sw=4 expandtab
-augroup END
+source ~/.config/nvim/visual.vim
+source ~/.config/nvim/file_type.vim
+source ~/.config/nvim/split.vim
 
-"------------ Visual Settings -----"
-set guioptions-=l
-set guioptions-=L
-set guioptions-=r
-set guioptions-=R
-set linespace=15
-set textwidth=80
-hi LineNr ctermfg=white ctermbg=none
+source ~/.config/nvim/nerd_tree.vim
+source ~/.config/nvim/ctrlp.vim
 
+source ~/.config/nvim/gsearch.vim
+source ~/.config/nvim/ctag.vim
 
-"------------ Split Management ----"
-set splitbelow
-set splitright
-
-nmap <C-J> <C-W><C-J>
-nmap <C-K> <C-W><C-K>
-nmap <C-H> <C-W><C-H>
-nmap <C-L> <C-W><C-L>
-
-
-"------------ Mappnigs ------------"
-
-"NERDTree Config
-map <F6> :NERDTreeToggle<CR>
-map <F5> :NERDTreeFind<CR>
-let NERDTreeHijackNetrw = 0
-let g:NERDTreeWinSize=25
-
-set grepprg=ag
-let g:grep_cmd_opts = '--line-numbers --noheading'
-
-nmap <c-e> :CtrlPMRUFiles<cr>
-nmap <c-t> :CtrlPBufTag<cr>
-nmap <Leader>f :tag<space>
+source ~/.config/nvim/devicons.vim
+source ~/.config/nvim/airline.vim
 
 source ~/.config/nvim/neomake.vim
-source ~/.config/nvim/airline.vim
-source ~/.config/nvim/devicons.vim
 source ~/.config/nvim/deoplete.vim
 source ~/.config/nvim/jedi.vim
 source ~/.config/nvim/ruby.vim
@@ -102,17 +67,10 @@ source ~/.config/nvim/html.vim
 
 nmap <Leader><Space> :nohlsearch<cr> 			" off highlight search
 imap jk <esc>
-nmap <silent> <leader>e :bnext<cr>          " switch to nex buffer
-nmap <silent> <leader>w :bprev<cr>      " switch to previous bufferjkj
 
 set mouse=a mousemodel=popup
 
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|dataset'
-let g:python_host_prog = '/home/tanvir/.pyenv/shims/python'
-
-set notagrelative
 set encoding=UTF-8
-set guifont=DroidSansMono\ Nerd\ Font\ 11
 
 
 " Notes and Tips
