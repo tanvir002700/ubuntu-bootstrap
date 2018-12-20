@@ -6,13 +6,10 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'ctrlpvim/ctrlp.vim'
 	Plug 'dracula/vim'
 	Plug 'lifepillar/vim-solarized8'
-	Plug 'bling/vim-bufferline'             " bufferline
 	Plug 'tpope/vim-endwise'
-	Plug 'ervandew/supertab'
 	Plug 'sheerun/vim-polyglot'
 	Plug 'rking/ag.vim'
 	Plug 'skwp/greplace.vim'
-	Plug 'ervandew/supertab'
 
 	Plug 'scrooloose/nerdtree'
     Plug 'jistr/vim-nerdtree-tabs'
@@ -22,7 +19,6 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'airblade/vim-gitgutter'			" check git diff
 	Plug 'ntpeters/vim-better-whitespace'   " check trailling white space error
 	Plug 'Raimondi/delimitMate'             " automatic closing of quotes, parenthesis, brackets, etc.
-	Plug 'honza/vim-snippets'
 
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
