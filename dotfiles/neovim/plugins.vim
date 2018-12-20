@@ -10,6 +10,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'sheerun/vim-polyglot'
 	Plug 'rking/ag.vim'
 	Plug 'skwp/greplace.vim'
+	Plug 'ervandew/supertab'
 
 	Plug 'scrooloose/nerdtree'
     Plug 'jistr/vim-nerdtree-tabs'
@@ -19,6 +20,7 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'airblade/vim-gitgutter'			" check git diff
 	Plug 'ntpeters/vim-better-whitespace'   " check trailling white space error
 	Plug 'Raimondi/delimitMate'             " automatic closing of quotes, parenthesis, brackets, etc.
+	Plug 'honza/vim-snippets'
 
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
@@ -49,8 +51,8 @@ call plug#begin('~/.config/nvim/plugged')
 
 	" python
 	"" Python Bundle
-    Plug 'davidhalter/jedi-vim'
     Plug 'jmcomets/vim-pony'
+    Plug 'zchee/deoplete-jedi'
 
     if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }

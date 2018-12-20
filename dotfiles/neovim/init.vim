@@ -64,6 +64,8 @@ source ~/.config/nvim/jedi.vim
 source ~/.config/nvim/ruby.vim
 source ~/.config/nvim/html.vim
 
+source ~/.config/nvim/macros.vim
+
 
 nmap <Leader><Space> :nohlsearch<cr> 			" off highlight search
 imap jk <esc>
