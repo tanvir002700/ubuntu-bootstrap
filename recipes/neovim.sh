@@ -20,10 +20,10 @@ else
   \curl --silent -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   which nvim > /dev/null && nvim +PlugUpgrade +PlugUpdate +PlugClean +qa
-fi 
+fi
 
 if which ctags > /dev/null; then
-  echo "=======> ctags already installed. <=======" 
+  echo "=======> ctags already installed. <======="
 else
    echo "------->> Installing ctags <<-------"
    sudo apt-get install -y --force-yes exuberant-ctags
@@ -35,3 +35,5 @@ else
   echo "------->> Installing silversearcher-ag <<-------"
   sudo apt-get install -y --force-yes silversearcher-ag
 fi
+
+cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
