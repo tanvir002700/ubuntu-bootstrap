@@ -78,6 +78,7 @@ command Bd bp|vsp|bn|bd
 
 
 
+
 " Notes and Tips
 " Ctags
 " ctags -R --exclude='*.js' .
