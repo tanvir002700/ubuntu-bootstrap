@@ -53,6 +53,7 @@ call plug#begin('~/.config/nvim/plugged')
 	"" Python Bundle
     Plug 'jmcomets/vim-pony'
     Plug 'davidhalter/jedi-vim'
+    Plug 'zchee/deoplete-jedi'
 
     if has('nvim')
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
