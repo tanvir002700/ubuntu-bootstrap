@@ -1,0 +1,3 @@
+[submodule "recipes/vim-pack"]
+	path = recipes/vim-pack
+	url = https://github.com/tanvir002700/vim-pack
