@@ -1,14 +1,23 @@
 #!/usr/bin/env bash
 
+source ./dependencies.sh
+source ./recipes/neovim.sh
+
 SCRIPT_ROOT="$(pwd)"
 
-source ./dependencies.sh
+#source ./dependencies.sh
 
-RECIPES_PATH="${SCRIPT_ROOT}/recipes"
-ALL_RECIPES="${RECIPES_PATH}/*"
 
-for file in $ALL_RECIPES; do
-	source $file
-done
+install() {
+    echo "bootstrap ubuntu...."
+    install_dependencies
+    install_neovim
+}
 
-source ./dotfiles_install.sh
+install
+
+#for file in $ALL_RECIPES; do
+#	source $file
+#done
+
+#source ./dotfiles_install.sh
