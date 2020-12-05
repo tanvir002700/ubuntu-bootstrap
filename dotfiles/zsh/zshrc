@@ -9,3 +9,20 @@ source ~/.zsh/pyenv.zsh
 source ~/.zsh/nodenv.zsh
 source ~/.zsh/sdkman.zsh
 source ~/.zsh/bindkeys.zsh
+
+export ALIEN_SECTIONS_LEFT=(
+  exit
+  time
+  path
+  vcs_branch:async
+  vcs_status:async
+  vcs_dirty:async
+  newline
+  ssh
+  venv
+  prompt
+)
+
+export ALIEN_SECTIONS_RIGHT=()
+export EDITOR='nvim'
+alias mux=tmuxinator
